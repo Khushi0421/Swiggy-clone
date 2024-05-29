@@ -1,0 +1,151 @@
+/* #menu
+{
+    box-shadow: 0px 8px 8px 0px rgb(241, 232, 232);
+    height: 75px;
+}
+ a.nav-link:hover, a.nav-link:active 
+{
+   color: orange;
+}
+.nav-item
+{
+    padding-right: 50px;
+    font-size: 16px;
+}
+.icon-margin {
+    margin-right: 10px; 
+    margin-left: 10px;
+}
+img.logo 
+{
+    width: 100px;
+    height: 55px;
+} */
+#menu {
+    box-shadow: 0px 8px 8px 0px rgb(241, 232, 232);
+    height: 75px;
+}
+
+a.nav-link:hover, a.nav-link:active {
+    color: orange;
+}
+
+.nav-item {
+    padding-right: 20px;
+    font-size: 16px;
+}
+
+.icon-margin {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+img.logo {
+    width: 100px;
+    height: 55px;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+    .nav-item {
+        padding-right: 10px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 576px) {
+    .nav-item {
+        padding-right: 5px;
+        font-size: 12px;
+    }
+}
+/*footer*/ 
+footer{
+    width: 100%;
+    height: 550px;
+    background-color:black;
+    color: white;
+}
+.footerlogo 
+{
+    width: 48px;
+    height: 45px;
+    margin: 50px 0 0 160px;
+}
+.footerh4 
+{
+    float: right;
+    margin: 55px 48px 0 0px;
+    padding-right: 70px;
+    font-weight: bold;
+}
+.footerh5
+{
+    padding-top: 55px;
+}
+.footerp   
+{
+    padding-left: 175px;
+    color: grey;
+    font-weight: bold;
+}
+.footerpara
+{
+    color: grey;
+    font-weight: bold;
+    line-height: 35px;
+}
+.button
+{
+    width: 120px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    border-color: grey;
+    border-style: solid;
+    border-width: 2px;
+    color: grey;
+    padding-right: 25px;
+}
+@media (max-width: 768px) {
+    .footerlogo {
+        margin: 20px auto; 
+    }
+
+    .footerh4 {
+        float: none;
+        margin: 20px auto;
+        padding: 0;
+        text-align: center;
+    }
+
+    .footerpara {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .button {
+        width: 100%;
+        margin-top: 20px;
+        text-align: center;
+    }
+}
+
+/*section*/
+.images
+{
+    width: 150px;
+    height: 170px;
+}
+.section
+{
+    height: 300px;
+}
+.carousel-inner .carousel-item img 
+{
+    max-height: 300px; 
+    object-fit: cover; 
+}
+
+
+ 
